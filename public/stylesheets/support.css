@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    font-family: "Inclusive Sans", serif;
+}
+
+
+.container{
+    /* background-color: #1D1D1D; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 50px;
+}
+
+.container h3{
+    background-color: #1D1D1D;
+    color: white;
+    padding: 30px;
+    font-family: "Inclusive Sans", serif;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.title h2{
+    font-family: "Inclusive Sans", serif;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    font-family: "Inclusive Sans", serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    background: linear-gradient(to right, #FF5500, #DD8323);
+    color: black;
+    padding: 10px;
+
+}
+
+@media (max-width: 480px) {
+    .container{
+        margin-left: 40px;
+        width: 80vw;
+    }
+
+    .container h6{
+        font-size: 15px;
+    }
+}

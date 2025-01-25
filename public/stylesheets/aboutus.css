@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    font-family: "Kulim Park", serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+
+}
+
+.title h2{
+    font-family: "Kulim Park", serif;
+    font-size: 30px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: 0px auto;
+}
+
+.box p{
+    background-color: #1D1D1D;
+    color: white;
+    padding: 30px;
+    font-family: "Kulim Park", serif;
+}
+
+.profiles{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.profiles .person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profiles .person h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+}
+
+.profiles .person span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 10px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    font-family: "Inclusive Sans", serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 3px;
+    text-decoration: none;
+    background: linear-gradient(to right, #FF5500, #DD8323);
+    color: black;
+    padding: 10px;
+
+}
+
+
+@media (max-width: 768px) {
+    .profiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .profiles .person{
+        margin-bottom: 50px;
+    }
+
+
+    .profiles .person img{
+        height: 180px;
+        width: 160px;
+    }
+
+}
+@media (max-width: 480px) {
+    .profiles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .profiles .person{
+        margin-bottom: 50px;
+    }
+
+
+    .profiles .person img{
+        height: 180px;
+        width: 160px;
+    }
+}
